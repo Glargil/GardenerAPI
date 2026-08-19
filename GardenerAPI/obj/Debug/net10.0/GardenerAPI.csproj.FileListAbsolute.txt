@@ -139,3 +139,4 @@ C:\Users\egilb\RiderProjects\WebApplication1\GardenerAPI\obj\Debug\net10.0\Garde
 C:\Users\egilb\RiderProjects\WebApplication1\GardenerAPI\obj\Debug\net10.0\GardenerAPI.genruntimeconfig.cache
 C:\Users\egilb\RiderProjects\WebApplication1\GardenerAPI\obj\Debug\net10.0\ref\GardenerAPI.dll
 C:\Users\egilb\RiderProjects\WebApplication1\GardenerAPI\bin\Debug\net10.0\Scalar.AspNetCore.dll
+C:\Users\egilb\RiderProjects\WebApplication1\GardenerAPI\obj\Debug\net10.0\GardenerAPI.sourcelink.json

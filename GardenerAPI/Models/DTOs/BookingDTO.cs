@@ -1,18 +1,15 @@
-namespace GardenerAPI;
+namespace GardenerAPI.DTOs;
 
-public class Booking
+public class BookingDTO
 {
-    public int Id { get; set; }
     public Guid BookingReference  { get; set; }
     public User Customer { get; set; }
-    public int CustomerId { get; set; }
     public DateTime BookingDate { get; set; }
     public Address CustomerAddress { get; set; }
-    public int CustomerAddressId { get; set; }
     public List<ServiceType> ServiceType { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
     public BookingStatus Status { get; set; }
     public string Description { get; set; }
-    public bool RecentlyChanged { get; set; } = false;
+    public bool RecentlyChanged { get; set; } = false; 
 }

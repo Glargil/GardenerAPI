@@ -64,7 +64,7 @@ public class BookingRepo : IBookingRepo
         if (booking != null)
         {
             booking.RecentlyChanged = false;
-            booking.Status = Booking.BookingStatus.Confirmed;
+            booking.Status = BookingStatus.Confirmed;
             //implement email sending logic (to customer)
             return booking;
         }
@@ -76,7 +76,7 @@ public class BookingRepo : IBookingRepo
         var booking = _context.Bookings.FirstOrDefault(booking => booking.Id == id);
         if (booking != null)
         {
-            booking.Status = Booking.BookingStatus.Cancelled;
+            booking.Status = BookingStatus.Cancelled;
             //implement email sending logic (to gardener)
             return booking;
         }

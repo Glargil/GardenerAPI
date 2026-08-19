@@ -4,8 +4,9 @@ namespace GardenerAPI;
 
 public class ProjectDbContext : DbContext
 {
-    public ProjectDbContext(DbContextOptions<ProjectDbContext> options)
+    public ProjectDbContext(DbContextOptions<ProjectDbContext> options) :base(options)
     {
+        
     }
     public DbSet<Gardener> Gardeners { get; set; }
     public DbSet<Customer> Customers { get; set; }

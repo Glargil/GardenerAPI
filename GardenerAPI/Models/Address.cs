@@ -7,7 +7,7 @@ public class Address
         House,
         VacationHome
     }
-
+    public int Id { get; set; }
     public ResidentialTypeEnum ResidentialType { get; set; }
     public string Zipcode { get; set; }
     public string Municipality { get; set; }

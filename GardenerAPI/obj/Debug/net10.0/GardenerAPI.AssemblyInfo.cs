@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GardenerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6023c89cb4a97d2cf2d023177f0ecf2b648bb013")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca5bee89a57e449940b4ee1fa6e2b702246f8c20")]
 [assembly: System.Reflection.AssemblyProductAttribute("GardenerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GardenerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
